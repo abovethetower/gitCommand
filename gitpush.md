@@ -16,3 +16,13 @@ git push -u origin main
 
 [^1]:在该目录下用git init来创建一个新的Git仓库。
 
+##二、如何从远程仓库克隆
+使用git clone命令
+```
+SSH
+git clone git@github.com:username/reponame.git
+```
+```
+HTTPS
+git clone https://github.com/username/reponame.git
+```
