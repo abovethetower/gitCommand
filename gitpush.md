@@ -5,6 +5,9 @@
 - 然后使用git add filename将文件添加到暂存区
 - 再使用git commit -m "详细的提交描述信息"提交文件到本地仓库
 - 先在Github上创建一个空的远程仓库（不初始化README文件）关联远程Github仓库（git remote add origin 远程仓库的地址）
+```
+git remote add origin https://github.com/abovethetower/yourrepository.git
+```
 - 最后使用git push 命令将本地提交推送到Github。
 ```
 git push -u origin main
